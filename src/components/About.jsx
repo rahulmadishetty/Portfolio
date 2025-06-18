@@ -20,7 +20,7 @@ export default function About() {
           <div className="md:w-1/3 flex justify-center md:justify-end">
             <img
               src="/photo.jpg" // Replace with your actual photo path
-              alt="Taleef Tamsal"
+              alt="Rahul Madishetty"
               className="w-128 h-128 rounded-full object-cover border-4 border-white shadow-lg"
             />
           </div>
@@ -29,20 +29,20 @@ export default function About() {
           <div className="md:w-2/3">
             <h2 className="text-2xl font-bold mb-4">About Me</h2>
             <p className="mb-4 leading-relaxed">
-              Hi, I’m <strong>Rahul Madishetty</strong>—a passionate software engineer and current MS candidate 
-              in Computer Science at Purdue University. I earned my BS in Computer Science from LUMS, 
-              with skills in full‐stack development, machine learning, data science, and the cloud. I love solving 
-              complex problems, experimenting with new technologies, and collaborating to bring innovative 
-              ideas to life.
+              Hey folks, I’m <strong>Rahul Madishetty</strong>—a passionate, results-driven Full-Stack Developer 
+              with nearly a decade of experience delivering end-to-end software solutions across diverse industries. 
+              Throughout my career, I’ve built scalable, intuitive, and high-performance applications that 
+              solve real-world problems and drive meaningful business outcomes.
             </p>
             <p className="mb-4 leading-relaxed">
-              When I’m not coding, I’m researching the latest AI/ML breakthroughs, refining my 
-              DevOps and Engineering skills, or exploring new models for fun. 
+              I thrive in fast-paced, collaborative environments where ownership, quality, and continuous improvement
+               are at the core. Whether it’s designing front-end architectures, optimizing backend systems, 
+               or untangling complex production issues—I bring clarity, precision, and commitment to every line of code.
             </p>
 
             {/* Resume Download Button */}
             <a
-              href="/Taleefs_Resume.pdf" // Replace with your actual resume path
+              href="/Rahuls_Resume.pdf" // Replace with your actual resume path
               download
               className="inline-block bg-white text-black py-2 px-4 rounded-lg shadow
                          hover:bg-secondary transition-colors duration-300"
@@ -54,7 +54,7 @@ export default function About() {
             <div className="flex space-x-4 mt-6">
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/ttamsal/"
+                href="https://www.linkedin.com/in/rahul-madishetty/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
@@ -64,7 +64,7 @@ export default function About() {
 
               {/* GitHub */}
               <a
-                href="https://github.com/Taleef7"
+                href="https://github.com/rahulmadishetty"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -74,7 +74,7 @@ export default function About() {
 
               {/* Facebook */}
               <a
-                href="https://www.facebook.com/taleef.tamsal/"
+                href="https://www.facebook.com/profile.php?id=100085437905122"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-secondary transition-colors duration-300"
