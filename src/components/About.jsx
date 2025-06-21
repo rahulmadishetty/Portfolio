@@ -84,7 +84,7 @@ export default function About() {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/taleeftamsal/"
+                href="https://www.instagram.com/rahul_.825?igsh=ZmpuOGRsMHViYndk&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pink-400 transition-colors duration-300"
@@ -94,7 +94,7 @@ export default function About() {
 
               {/* Email */}
               <a
-                href="mailto:taleeftamsal@hotmail.com"
+                href="mailto:rahulmadishetty29@hotmail.com"
                 className="text-gray-400 hover:text-blue-700 transition-colors duration-300"
               >
                 <FaEnvelope size="1.5em" />
