@@ -11,8 +11,10 @@ export default {
         primary: '#244855',
         secondary: '#2272FF',
         accent: '#874f41',
+        accentlight: '#dba396',
+        accentlightest:'white',
         light: '#2d2d2d',
-        background: '#1d1d1d'
+        background: 'white'
       },
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
