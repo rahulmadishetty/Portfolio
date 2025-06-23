@@ -11,16 +11,6 @@ const Home = () => {
     new Typewriter(headingRef.current, {
       strings: [
         'Welcome',
-        'Bienvenida',
-        'Willkommen',
-        'Bienvenu',
-        'Benvenuto',
-        'Selamat Datang',
-        '欢迎',
-        'أهلا وسهلا',
-        '환영합니다',
-        'Добро пожаловать',
-        'مرحبا'
       ],
       autoStart: true,
       loop: true,
@@ -37,10 +27,10 @@ const Home = () => {
       </div>
 
       {/* Optional Overlay — you can keep or remove this */}
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
+      {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div> */}
 
       {/* Foreground Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-black">
         <h1 ref={headingRef} className="text-4xl md:text-6xl font-bold"></h1>
         <p className="mt-4 text-xl md:text-2xl animate-fadeInUp">
           To my website
@@ -49,7 +39,7 @@ const Home = () => {
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
           <a href="#about">
             <svg
-              className="w-8 h-8 text-white animate-bounce"
+              className="w-8 h-8 text-black animate-bounce"
               fill="none" stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"

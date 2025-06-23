@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className={`snap-section bg-black text-white py-10 fade-in ${isVisible ? 'fade-in-visible' : ''}`}
+      className={`snap-section bg-accentlightest text-black py-10 fade-in ${isVisible ? 'fade-in-visible' : ''}`}
     >
       <div className="container mx-auto px-4">
         {/* Section Heading */}
@@ -21,13 +21,12 @@ export default function About() {
             <img
               src="/photo.jpg" // Replace with your actual photo path
               alt="Rahul Madishetty"
-              className="w-128 h-128 rounded-full object-cover border-4 border-white shadow-lg"
+              className="w-128 h-128 rounded-full object-cover border-2 border-black shadow-lg"
             />
           </div>
 
           {/* Text & Socials */}
           <div className="md:w-2/3">
-            <h2 className="text-2xl font-bold mb-4">About Me</h2>
             <p className="mb-4 leading-relaxed">
               Hey folks, I’m <strong>Rahul Madishetty</strong>—a passionate, results-driven Full-Stack Developer 
               with nearly a decade of experience delivering end-to-end software solutions across diverse industries. 
@@ -44,8 +43,8 @@ export default function About() {
             <a
               href="/Rahuls_Resume.pdf" // Replace with your actual resume path
               download
-              className="inline-block bg-white text-black py-2 px-4 rounded-lg shadow
-                         hover:bg-secondary transition-colors duration-300"
+              className="inline-block bg-accentlight text-black py-2 px-4 rounded-lg shadow
+                         hover:bg-accent transition-colors duration-300"
             >
               Download CV/Resume
             </a>
@@ -57,7 +56,7 @@ export default function About() {
                 href="https://www.linkedin.com/in/rahul-madishetty/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
+                className="text-gray-800 hover:text-blue-500 transition-colors duration-300"
               >
                 <FaLinkedin size="1.5em" />
               </a>
@@ -67,7 +66,7 @@ export default function About() {
                 href="https://github.com/rahulmadishetty"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
+                className="text-gray-800 hover:text-black transition-colors duration-300"
               >
                 <FaGithub size="1.5em" />
               </a>
@@ -77,7 +76,7 @@ export default function About() {
                 href="https://www.facebook.com/profile.php?id=100085437905122"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-secondary transition-colors duration-300"
+                className="text-gray-800 hover:text-secondary transition-colors duration-300"
               >
                 <FaFacebook size="1.5em" />
               </a>
@@ -87,7 +86,7 @@ export default function About() {
                 href="https://www.instagram.com/rahul_.825?igsh=ZmpuOGRsMHViYndk&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-pink-400 transition-colors duration-300"
+                className="text-gray-800 hover:text-pink-400 transition-colors duration-300"
               >
                 <FaInstagram size="1.5em" />
               </a>
@@ -95,7 +94,7 @@ export default function About() {
               {/* Email */}
               <a
                 href="mailto:rahulmadishetty29@hotmail.com"
-                className="text-gray-400 hover:text-blue-700 transition-colors duration-300"
+                className="text-gray-800 hover:text-blue-700 transition-colors duration-300"
               >
                 <FaEnvelope size="1.5em" />
               </a>

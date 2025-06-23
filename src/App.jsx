@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 
 const About = React.lazy(() => import('./components/About'));
-const Projects = React.lazy(() => import('./components/Projects'));
+// const Projects = React.lazy(() => import('./components/Projects'));
 const Work = React.lazy(() => import('./components/Work'));
 const Contact = React.lazy(() => import('./components/Contact'));
 const TechStack = React.lazy(() => import('./components/TechStack'));
@@ -21,7 +21,7 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <About />
           <Divider />
-          <Projects />
+          {/* <Projects /> */}
           <Divider />
           <Work defaultColor="bg-cyan-500" />
           <Divider />
